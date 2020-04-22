@@ -1,0 +1,13 @@
+{
+    "name": "pavel/billing",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Billing\\": "src/",
+            "BillingTests\\": "tests/"
+        }
+    }
+}
